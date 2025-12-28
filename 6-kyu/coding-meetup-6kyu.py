@@ -33,3 +33,12 @@ def all_continents(lst):
     found = {dev["continent"] for dev in lst}
 
     return found >= REQUIRED
+
+
+# CODING MEETUP 9
+def is_age_diverse(lst):
+    required_decades = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+    found_decades = {min(dev["age"] // 10, 10) for dev in lst}
+
+    return found_decades >= required_decades
