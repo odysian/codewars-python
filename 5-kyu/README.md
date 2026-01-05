@@ -26,3 +26,7 @@
 
 ### [Count IP Addresses](https://www.codewars.com/kata/526989a41034285187000de4/train/python)
 - Math trick, knowing how to calculate octets in base 256
+
+### [Best Travel](https://www.codewars.com/kata/55e7280b40e1c4a06d0000aa/train/python)
+- Use itertools.combinations, nested loops with a large k var would require advanced algorithm
+- Sum totals of combinations, check if under limit and return the max total
