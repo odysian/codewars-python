@@ -15,3 +15,7 @@
 ### [Pagination Helper](https://www.codewars.com/kata/515bb423de843ea99400000a/train/python)
 - OOP
 - Zero indexes made the problem interesting. Good bit of division/modulo that took some thought.
+
+### [Sum of Pairs](https://www.codewars.com/kata/54d81488b981293527000c8f/train/python)
+- Two sum but return numbers, not indexes
+- Used a set for better perfomance
