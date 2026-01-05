@@ -23,3 +23,6 @@
 ### [Integers: Recreation One](https://www.codewars.com/kata/55aa075506463dac6600010d/train/python)
 - Square numbers and nested loop
 - Required decent optimization to pass tests. Only looping through until the sqrt of a number cut down runtime.
+
+### [Count IP Addresses](https://www.codewars.com/kata/526989a41034285187000de4/train/python)
+- Math trick, knowing how to calculate octets in base 256
