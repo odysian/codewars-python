@@ -12,3 +12,11 @@ export function dontGiveMeFive(start:number, end:number) : number {
   // .length doesnt have ()
   return count.length;
 }
+
+export const dontGiveMeFive1 = (start:number, end:number): number => {
+  const range = Array.from(
+    { length: end - start + 1 },
+    (_, i) => start + i
+  );
+  return range.filter(n => !String(n).includes('5')).length
+}

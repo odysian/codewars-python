@@ -16,3 +16,5 @@ export function grow1(arr: number[]): number {
   // 1 is the starting value
   return arr.reduce((acc, curr) => acc * curr, 1);
 }
+
+export const grow2 = (arr:number[]): number => arr.reduce((acc, curr) => acc * curr, 1);

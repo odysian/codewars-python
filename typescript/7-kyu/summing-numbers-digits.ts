@@ -8,3 +8,9 @@ export function sumDigits(n: number): number {
   // Reduce array with arrow function to sum nums
   return numList.reduce((acc, curr) => acc + curr, 0)
 }
+
+export const sumDigits1 = (n:number): number => 
+  String(Math.abs(n))
+    .split("")
+    .map(Number)
+    .reduce((acc ,curr) => acc + curr, 0)
